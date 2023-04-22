@@ -6,12 +6,13 @@
   </head>
   <body>
     <h1>Free Text Field Example</h1>
-    <form>
-      <label for="text-field">Enter your text:</label>
-      <br>
-      <textarea id="text-field" name="text-field" rows="4" cols="50"></textarea>
-      <br>
-      <input type="submit" value="Submit">
+    <form onsubmit="submitForm(event)">
+      <input type="text" name="field1" placeholder="Field 1" /><br>
+      <input type="text" name="field2" placeholder="Field 2" /><br>
+      <input type="text" name="field3" placeholder="Field 3" /><br>
+      <input type="text" name="field4" placeholder="Field 4" /><br>
+      <input type="text" name="field5" placeholder="Field 5" /><br>
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
